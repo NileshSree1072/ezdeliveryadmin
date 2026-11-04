@@ -4,7 +4,6 @@ import fs from 'fs';
 import mime from 'mime-types';
 import { mongooseConnect } from '@/lib/mongoose';
 import { isAdminRequest } from './auth/[...nextauth]';
-const multiparty = require('multiparty');
 
 
 
